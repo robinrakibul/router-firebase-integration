@@ -10,6 +10,7 @@ const Products = () => {
     return (
         <div>
             <h5>This is product page</h5>
+            <h5> {user?.displayName}</h5>
         </div>
     );
 };
